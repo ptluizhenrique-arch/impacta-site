@@ -1,9 +1,9 @@
-import Header from "@/components/Header";
-import HeroArt from "@/components/HeroArt";
-import DesafioPicker from "@/components/DesafioPicker";
-import Steps from "@/components/Steps";
-import Brief from "@/components/Brief";
-import { Arrow, Chev, Logo } from "@/components/Icons";
+import Header from "@/Header";
+import HeroArt from "@/HeroArt";
+import DesafioPicker from "@/DesafioPicker";
+import Steps from "@/Steps";
+import Brief from "@/Brief";
+import { Arrow, Chev, Logo } from "@/Icons";
 import { CONTATO, EMPRESA, NAV_LINKS, ENTREGAS, FAQ, FRENTES_2026, METRICAS, TRAJETORIA } from "@/lib/site";
 
 const MARQUEE = ["Estratégia", "Redes sociais", "Design e criação", "Audiovisual", "Mídia e performance", "Sites"];
