@@ -7,12 +7,6 @@ Edite `lib/site.ts`:
 - `SITE_URL`: o domínio final (ex.: `https://impactacomunicacao.com.br`)
 - `CONTATO`: e-mail, WhatsApp (só números, com 55 + 051 993949307) e Instagram
 
-## Rodar no computador
-Precisa do Node.js 20.9 ou mais novo.
-```bash
-npm install
-npm run dev      # abre em http://localhost:3000
-npm run build    # testa o build de produção
 ```
 
 ## Estrutura
