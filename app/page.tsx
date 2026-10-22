@@ -5,6 +5,7 @@ import Steps from "@/Steps";
 import Brief from "@/Brief";
 import { Arrow, Chev, Logo } from "@/Icons";
 import MobileCTA from "@/MobileCTA";
+import WhatsAppFloat from "@/WhatsAppFloat";
 import fotoLuiz from "@/luiz.jpg";
 import fotoDaniel from "@/daniel.jpg";
 import { CONTATO, EMPRESA, NAV_LINKS, ENTREGAS, FAQ, FRENTES_2026, METRICAS, TRAJETORIA } from "@/lib/site";
@@ -372,6 +373,7 @@ export default function Home() {
         </div>
       </footer>
       <MobileCTA />
+      <WhatsAppFloat />
     </>
   );
 }
