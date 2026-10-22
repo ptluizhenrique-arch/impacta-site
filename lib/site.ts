@@ -11,7 +11,7 @@ export const SITE_URL = "https://www.impactacomunicacao.com.br";
  * instagram: sem @, ex.: "impacta.digital"
  */
 export const CONTATO = {
-  email: "",
+  email: "contato@impactacomunicacao.com.br",
   whatsapp: "5551993949307",
   whatsappExibicao: "(51) 99394-9307", // como o número aparece no site, ex.: "(51) 99999-9999"
   instagram: "",
