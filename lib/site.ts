@@ -3,7 +3,7 @@
 // ============================================================
 
 /** Endereço final do site (sem barra no fim). Usado em SEO, sitemap e Open Graph. */
-export const SITE_URL = "https://impactacomunicacao.com.br";
+export const SITE_URL = "https://www.impactacomunicacao.com.br";
 
 /**
  * Contatos comerciais. Deixe "" para esconder.
@@ -12,8 +12,8 @@ export const SITE_URL = "https://impactacomunicacao.com.br";
  */
 export const CONTATO = {
   email: "",
-  whatsapp: "",
-  whatsappExibicao: "", // como o número aparece no site, ex.: "(51) 99999-9999"
+  whatsapp: "5551993949307",
+  whatsappExibicao: "(51) 99394-9307", // como o número aparece no site, ex.: "(51) 99999-9999"
   instagram: "",
 };
 
