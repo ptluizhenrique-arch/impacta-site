@@ -4,6 +4,9 @@ import DesafioPicker from "@/DesafioPicker";
 import Steps from "@/Steps";
 import Brief from "@/Brief";
 import { Arrow, Chev, Logo } from "@/Icons";
+import MobileCTA from "@/MobileCTA";
+import fotoLuiz from "@/luiz.jpg";
+import fotoDaniel from "@/daniel.jpg";
 import { CONTATO, EMPRESA, NAV_LINKS, ENTREGAS, FAQ, FRENTES_2026, METRICAS, TRAJETORIA } from "@/lib/site";
 
 const MARQUEE = ["Estratégia", "Redes sociais", "Design e criação", "Audiovisual", "Mídia e performance", "Sites"];
@@ -279,7 +282,7 @@ export default function Home() {
               <article className="person">
                 <div className="photo">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/equipe/luiz.jpg" alt="Luiz Henrique Barbudinho" width={600} height={830} loading="lazy" />
+                  <img src={fotoLuiz.src} alt="Luiz Henrique Barbudinho" width={600} height={830} loading="lazy" />
                   <em>CEO</em>
                 </div>
                 <div>
@@ -292,7 +295,7 @@ export default function Home() {
               <article className="person">
                 <div className="photo">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/equipe/daniel.jpg" alt="Daniel Strunkis" width={600} height={830} loading="lazy" />
+                  <img src={fotoDaniel.src} alt="Daniel Strunkis" width={600} height={830} loading="lazy" />
                   <em>DIRETOR</em>
                 </div>
                 <div>
@@ -368,6 +371,7 @@ export default function Home() {
           <span>© {new Date().getFullYear()} {EMPRESA.nome} · {EMPRESA.cidade} · CNPJ {EMPRESA.cnpj}</span>
         </div>
       </footer>
+      <MobileCTA />
     </>
   );
 }
