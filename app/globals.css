@@ -385,3 +385,6 @@ a,button,summary,.tab,.step{-webkit-tap-highlight-color:transparent;touch-action
   footer nav{gap:0 18px}
   footer nav a{display:inline-block;padding:12px 0}
 }
+
+/* âncoras do menu não ficam escondidas atrás do cabeçalho fixo */
+section[id],main[id]{scroll-margin-top:calc(72px + env(safe-area-inset-top,0px))}
